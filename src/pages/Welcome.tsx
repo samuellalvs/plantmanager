@@ -57,6 +57,7 @@ const styles = StyleSheet.create({
         fontWeight: "bold",
         textAlign: "center",
         color: colors.heading,
+        marginTop: 30,
         marginBottom: 30,
         lineHeight: 34,
         fontFamily: fonts.heading
