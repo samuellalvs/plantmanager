@@ -38,7 +38,7 @@ export function MyPlants() {
                 onPress: async () => {
                     try {
                         await removePlant(plant.id);
-                        
+
                         setMyPlants((oldData) => (
                             oldData.filter(item => item.id != plant.id)
                         ));
@@ -108,7 +108,6 @@ export function MyPlants() {
                     )}
                     
                     showsVerticalScrollIndicator={false}
-                    contentContainerStyle={{flex:1}}
                 />
             </View>
             
